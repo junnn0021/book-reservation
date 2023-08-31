@@ -5,7 +5,7 @@
 
 
 <petclinic:layout pageName="home">
-    <h2 class="text-center"><br><a href = "resources/test.jsp"><fmt:message key="welcome"/></a></h2> <!-- text-center 클래스를 추가 -->
+    <h2 class="text-center"><br><a href = "petclinic/resources/test.jsp"><fmt:message key="welcome"/></a></h2> <!-- text-center 클래스를 추가 -->
     <div class="row">
         <div class="col-md-12 text-center"> <!-- text-center 클래스를 추가 -->
             <spring:url value="/resources/images/pets.png" htmlEscape="true" var="petsImage"/>

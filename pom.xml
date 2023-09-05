@@ -479,9 +479,6 @@
     <profiles>
         <profile>
             <id>H2</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
             <properties>
                 <db.script>h2</db.script>
                 <jpa.database>H2</jpa.database>
@@ -520,11 +517,14 @@
         </profile>
         <profile>
           <id>MySQL</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
            <properties>
               <db.script>mysql</db.script>
               <jpa.database>MYSQL</jpa.database>
               <jdbc.driverClassName>com.mysql.cj.jdbc.Driver</jdbc.driverClassName>
-	      <jdbc.url>jdbc:mysql://10.251.96.2:3306/petclinic?useUnicode=true</jdbc.url>
+	      <jdbc.url>jdbc:mysql://172.28.112.3:3306/petclinic?useUnicode=true</jdbc.url>
               <jdbc.username>root</jdbc.username>
               <jdbc.password>qwe123!@#</jdbc.password>
           </properties>

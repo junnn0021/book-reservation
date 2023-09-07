@@ -35,8 +35,8 @@
     <%
       Connection conn = null;
       try{
-        String url = "jdbc:mysql://10.121.80.2:3306/petclinic";
-        String id = "root";
+        String url = "jdbc:mysql://10.153.80.3:3306/petclinic";
+        String id = "user";
         String pw = "qwe123!@#"; 
         
         Class.forName("com.mysql.jdbc.Driver");

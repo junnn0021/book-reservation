@@ -30,7 +30,6 @@
 
 ## User Flow
 ![image](https://github.com/junnn0021/book-reservation/assets/119108967/d665cb98-ed5d-4883-b7ab-16f719fbde96)
-<img src="[https://github.com/junnn0021/book-reservation/assets/119108967/d665cb98-ed5d-4883-b7ab-16f719fbde96]" width="1000" height="800"/>
 
 <br>
 

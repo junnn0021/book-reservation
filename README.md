@@ -1,4 +1,4 @@
-![image](https://github.com/junnn0021/book-reservation/assets/119108967/b7fc53f4-b177-4956-80ee-08d6e74b89cf)## Team : 화양연화
+## Team : 화양연화
 
 팀장 이준석 : [junnn0021](https://github.com/junnn0021) | 이준석 : [junnn0021](https://github.com/junnn0021) | 이준석 : [junnn0021](https://github.com/junnn0021) | 이준석 : [junnn0021](https://github.com/junnn0021) | 
  --- | --- | --- | --- |
@@ -10,11 +10,11 @@
 
 ## Requirement
 
-**WEB / WAS 서비스를 위한 인프라 구축**
+### Web Server / WAS 서비스를 위한 인프라 구축
 
-- WEB Server 구축(apache v2.4 ~)
-- WAS Server 구축(tomcat) - java: OpenJDK 설치 & yum/dnf로 java 설치 선택
-- WEB-WAS 연동 - Proxy모드 설정 또는 mod.jk 모드 설정
+- Web Server 구축(apache v2.4 ~)
+- WAS 구축(tomcat) - java: OpenJDK 설치 & yum/dnf로 java 설치 선택
+- Web Server-WAS 연동 - Proxy모드 설정 또는 mod.jk 모드 설정
 - DB 구축 및 연동
 - CDN, 애플리케이션 및 인프라 모니터링, DNS 구성
 <br>
@@ -41,32 +41,31 @@
 <br>
 
 ## Environment
-<div align=center>
-<img src="https://img.shields.io/badge/GCP-4285F4?stylefor-the-badge&logo=Google Cloud&logoColor=FAFAFA"/>
-<img src="https://img.shields.io/badge/Apache-D22128?stylefor-the-badge&logo=Apache&logoColor=FAFAFA"/>
+<!--<div align=center>-->
+<img src="https://img.shields.io/badge/GCP-4285F4?stylefor-the-badge&logo=Google Cloud&logoColor=FAFAFA"/> <img src="https://img.shields.io/badge/Apache-D22128?stylefor-the-badge&logo=Apache&logoColor=FAFAFA"/>
 <img src="https://img.shields.io/badge/Tomcat-F8DC75?stylefor-the-badge&logo=Apache Tomcat&logoColor=000000"/>
 <img src="https://img.shields.io/badge/Maven-C71A36?stylefor-the-badge&logo=Apache Maven&logoColor=FAFAFA"/>
 <img src="https://img.shields.io/badge/JMeter-D22128?stylefor-the-badge&logo=Apache JMeter&logoColor=FAFAFA"/>
 
-</div>
+<!--</div>-->
+
+<br>
+
+## Example of use
+
+
+<br>
+
+## Prerequisites
+
+아래 주어진 과정을 실행해야 합니다.
 
 <br>
 
 ## Spring PetClinic Sample Application
 
-GCP Cloud 과제 수행을 위한 Java Spring 으로 개발된 Sample Application 입니다. 
-
-**3-layer architecture** (i.e. presentation --> service --> repository) 로 Tomcat 에 배포하여 2 Tier 로 구성하거나
-또는 nginx 등의 Web 서버를 통해서 Tomcat 을 연결하는 3 Tier 구성을 테스트할 수 있습니다. 
-
-## Understanding the Spring Petclinic application with a few diagrams
-
-[See the presentation here](http://fr.slideshare.net/AntoineRey/spring-framework-petclinic-sample-application) (2017 update)
-
-## Running petclinic locally
-
 ### Tomcat 설치 및 Start
-Tomcat 설치 가이드를 참조하여 Tomcat 설치 후, tomcat-users.xml 에 User 및 Role 추가
+Tomcat 설치 가이드를 참조하여 Tomcat 설치 후, tomcat-users.xml 에 User 및 Role 추가합니다.
 
 [ Ubuntu 18.04 : Tomcat 9 설치하는 방법 ](https://jjeongil.tistory.com/1351)
 
@@ -94,10 +93,6 @@ git clone https://github.com/SteveKimbespin/petclinic_btc.git
 cd petclinic_btc
 ./mvnw tomcat7:deploy
 ```
-
-You can then access petclinic here: [http://localhost:8080/petclinic](http://localhost:8080/petclinic)
-
-<img width="1042" alt="petclinic-screenshot" src="https://cloud.githubusercontent.com/assets/838318/19727082/2aee6d6c-9b8e-11e6-81fe-e889a5ddfded.png">
 
 ### 외부에 구성한 MySQL Database 연결 방법
 
@@ -128,9 +123,6 @@ Tomcat 에 재배포
 # 최초 배포하는 경우
 ./mvnw tomcat7:deploy -P MySQL
 ```
-
-
-You can then access petclinic here: [http://localhost:8080/petclinic](http://localhost:8080/petclinic)
 
 
 

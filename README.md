@@ -3,7 +3,7 @@
  팀장 이준석 : [junnn0021](https://github.com/junnn0021) | 이준석 : [junnn0021](https://github.com/junnn0021) | 이준석 : [junnn0021](https://github.com/junnn0021) | 이준석 : [junnn0021](https://github.com/junnn0021) | 
  --- | --- | --- | --- |
 
- - Duration : 2022.03.07 ~ 2022.03.24
+ - Duration : 2023.07.24~2023.08.04
 <br>
 
 

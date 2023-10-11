@@ -1,12 +1,11 @@
 ## Team : 화양연화
 
-우리가 함께 성장해가는 이 순간은 인생에서 가장 빛나는 행복한 시간이다.
-
 팀장 이준석 : [junnn0021](https://github.com/junnn0021) | 이준석 : [junnn0021](https://github.com/junnn0021) | 이준석 : [junnn0021](https://github.com/junnn0021) | 이준석 : [junnn0021](https://github.com/junnn0021) | 
  --- | --- | --- | --- |
 
- - Team Notion : [花様年華](https://www.notion.so/da73182e65984c3b8a985bc8ce32e699)
- - Duration : 2023.07.24~2023.08.04
+- 우리가 함께 성장해가는 이 순간은 인생에서 가장 빛나는 행복한 시간이다.
+- Team Notion : [花様年華](https://www.notion.so/da73182e65984c3b8a985bc8ce32e699)
+- Duration : 2023.07.24~2023.08.04
 <br>
 
 ## Summary

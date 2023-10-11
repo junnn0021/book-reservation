@@ -3,7 +3,7 @@
 팀장 이준석 : [junnn0021](https://github.com/junnn0021) | 이준석 : [junnn0021](https://github.com/junnn0021) | 이준석 : [junnn0021](https://github.com/junnn0021) | 이준석 : [junnn0021](https://github.com/junnn0021) | 
  --- | --- | --- | --- |
 
-- 우리가 함께 성장해가는 이 순간은 인생에서 가장 빛나는 행복한 시간이다.
+- **우리가 함께 성장해가는 이 순간은 인생에서 가장 빛나는 행복한 시간이다.**
 - Team Notion : [花様年華](https://www.notion.so/da73182e65984c3b8a985bc8ce32e699)
 - Duration : 2023.07.24~2023.08.04
 <br>
@@ -25,6 +25,7 @@ WEB / WAS 서비스를 위한 인프라 구축
 서버 및 데이터베이스는 GCP를 이용하여 3 Tier를 구축했습니다.
 
 (현 프로젝트는 제공받은 Petclinic 코드를 일부 수정하여 진행했습니다.)
+<br>
 
 
 
@@ -32,9 +33,7 @@ WEB / WAS 서비스를 위한 인프라 구축
 
 
 
-
-
-# Spring PetClinic Sample Application
+## Spring PetClinic Sample Application
 
 [![Build Status](https://travis-ci.org/spring-petclinic/spring-framework-petclinic.svg?branch=master)](https://travis-ci.org/spring-petclinic/spring-framework-petclinic/) 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=spring-petclinic_spring-framework-petclinic&metric=alert_status)](https://sonarcloud.io/dashboard?id=spring-petclinic_spring-framework-petclinic)

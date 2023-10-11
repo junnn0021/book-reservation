@@ -1,4 +1,4 @@
-## Team : 화양연화(GCP 1팀)
+## Team : 화양연화 (GCP 1팀)
  
  손동훈 : [Sondoobo](https://github.com/Sondoobo) | 이준석 : [junnn0021](https://github.com/junnn0021) | 이인홍 : [Bleep-H3](https://github.com/Bleep-H3) | 현수빈 : [numberbeen](https://github.com/numberbeen) | 
  --- | --- | --- | --- |

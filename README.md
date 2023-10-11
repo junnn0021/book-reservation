@@ -37,6 +37,7 @@
 
 ![image](https://github.com/junnn0021/book-reservation/assets/119108967/4a4c8dc3-7a65-47b5-89b9-ca218c1c9e53)
 ![image](https://github.com/junnn0021/book-reservation/assets/119108967/db80d99f-f4dc-4c3a-9209-b29c5097e621)
+- 아키텍처 구현 과정 : [Notion](https://www.notion.so/c76fd7c84e00409bbac6a0e889c7e629)
 
 <br>
 

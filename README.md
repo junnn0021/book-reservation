@@ -10,7 +10,7 @@
 
 ## Requirement
 
-WEB / WAS 서비스를 위한 인프라 구축
+**WEB / WAS 서비스를 위한 인프라 구축**
 
 - WEB Server 구축(apache v2.4 ~)
 - WAS Server 구축(tomcat) - java: OpenJDK 설치 & yum/dnf로 java 설치 선택
@@ -20,18 +20,13 @@ WEB / WAS 서비스를 위한 인프라 구축
 <br>
 
 ## Summary
-우리 페이지는 도서 구매 예약 시스템을 운영합니다.<p>사용자는 페이지 접속 후, 사용자 정보와 구매할 도서 정보를 입력하게 됩니다.
+우리 페이지는 **도서 구매 예약 시스템**을 운영합니다.<p>사용자는 페이지 접속 후, 사용자 정보와 구매할 도서 정보를 입력하게 됩니다.
 
-서버 및 데이터베이스는 GCP를 이용하여 3 Tier를 구축했습니다.
+서버 및 데이터베이스는 **GCP를 이용하여 3 Tier를 구축**했습니다.
 
 (현 프로젝트는 제공받은 Petclinic 코드를 일부 수정하여 진행했습니다.)
+
 <br>
-
-
-
-
-
-
 
 ## Spring PetClinic Sample Application
 

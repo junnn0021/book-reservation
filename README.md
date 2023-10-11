@@ -28,11 +28,19 @@
 
 <br>
 
-## Spring PetClinic Sample Application
+## User Flow
+![image](https://github.com/junnn0021/book-reservation/assets/119108967/d665cb98-ed5d-4883-b7ab-16f719fbde96)
+<img src="[https://github.com/junnn0021/book-reservation/assets/119108967/d665cb98-ed5d-4883-b7ab-16f719fbde96]" width="1000" height="800"/>
 
-[![Build Status](https://travis-ci.org/spring-petclinic/spring-framework-petclinic.svg?branch=master)](https://travis-ci.org/spring-petclinic/spring-framework-petclinic/) 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=spring-petclinic_spring-framework-petclinic&metric=alert_status)](https://sonarcloud.io/dashboard?id=spring-petclinic_spring-framework-petclinic)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=spring-petclinic_spring-framework-petclinic&metric=coverage)](https://sonarcloud.io/dashboard?id=spring-petclinic_spring-framework-petclinic)
+<br>
+
+## Architecture
+
+![image](https://github.com/junnn0021/book-reservation/assets/119108967/4a4c8dc3-7a65-47b5-89b9-ca218c1c9e53)
+
+<br>
+
+## Spring PetClinic Sample Application
 
 GCP Cloud 과제 수행을 위한 Java Spring 으로 개발된 Sample Application 입니다. 
 

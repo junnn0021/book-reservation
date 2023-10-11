@@ -1,4 +1,4 @@
-## Team : 화양연화
+![image](https://github.com/junnn0021/book-reservation/assets/119108967/b7fc53f4-b177-4956-80ee-08d6e74b89cf)## Team : 화양연화
 
 팀장 이준석 : [junnn0021](https://github.com/junnn0021) | 이준석 : [junnn0021](https://github.com/junnn0021) | 이준석 : [junnn0021](https://github.com/junnn0021) | 이준석 : [junnn0021](https://github.com/junnn0021) | 
  --- | --- | --- | --- |
@@ -35,9 +35,20 @@
 
 ## Architecture
 
-![image](https://github.com/junnn0021/book-reservation/assets/119108967/4a4c8dc3-7a65-47b5-89b9-ca218c1c9e53)<p>
+![image](https://github.com/junnn0021/book-reservation/assets/119108967/4a4c8dc3-7a65-47b5-89b9-ca218c1c9e53)
 ![image](https://github.com/junnn0021/book-reservation/assets/119108967/db80d99f-f4dc-4c3a-9209-b29c5097e621)
 
+<br>
+
+## Environment
+<div align=center>
+<img src="https://img.shields.io/badge/GCP-4285F4?stylefor-the-badge&logo=Google Cloud&logoColor=FAFAFA"/>
+<img src="https://img.shields.io/badge/Apache-D22128?stylefor-the-badge&logo=Apache&logoColor=FAFAFA"/>
+<img src="https://img.shields.io/badge/Tomcat-F8DC75?stylefor-the-badge&logo=Apache Tomcat&logoColor=000000"/>
+<img src="https://img.shields.io/badge/Maven-C71A36?stylefor-the-badge&logo=Apache Maven&logoColor=FAFAFA"/>
+<img src="https://img.shields.io/badge/JMeter-D22128?stylefor-the-badge&logo=Apache JMeter&logoColor=FAFAFA"/>
+
+</div>
 
 <br>
 

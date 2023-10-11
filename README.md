@@ -8,6 +8,15 @@
 - Duration : 2023.07.24~2023.08.04
 <br>
 
+## Requirement
+
+WEB / WAS 서비스를 위한 인프라 구축
+● WEB Server 구축(apache v2.4 ~)
+● WAS Server 구축(tomcat) - java: OpenJDK 설치 & yum/dnf로 java 설치 선택
+● WEB-WAS 연동 - Proxy모드 설정 또는 mod.jk 모드 설정
+● DB 구축 및 연동
+● CDN, 애플리케이션 및 인프라 모니터링, DNS 구성
+
 ## Summary
 우리 페이지는 도서 구매 예약 시스템을 운영합니다.
 사용자는 페이지 접속 후, 사용자 정보와 구매할 도서 정보를 입력하게 됩니다.

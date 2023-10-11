@@ -47,6 +47,7 @@
 <img src="https://img.shields.io/badge/Tomcat-F8DC75?stylefor-the-badge&logo=Apache Tomcat&logoColor=000000"/>
 <img src="https://img.shields.io/badge/Maven-C71A36?stylefor-the-badge&logo=Apache Maven&logoColor=FAFAFA"/>
 <img src="https://img.shields.io/badge/JMeter-D22128?stylefor-the-badge&logo=Apache JMeter&logoColor=FAFAFA"/>
+<img src="https://img.shields.io/badge/MySQL-071D49?stylefor-the-badge&logo=MySQL&logoColor=4479A1"/>
 
 <!--</div>-->
 

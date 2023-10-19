@@ -1,22 +1,71 @@
-# Spring PetClinic Sample Application
+## Team : 화양연화
 
-[![Build Status](https://travis-ci.org/spring-petclinic/spring-framework-petclinic.svg?branch=master)](https://travis-ci.org/spring-petclinic/spring-framework-petclinic/) 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=spring-petclinic_spring-framework-petclinic&metric=alert_status)](https://sonarcloud.io/dashboard?id=spring-petclinic_spring-framework-petclinic)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=spring-petclinic_spring-framework-petclinic&metric=coverage)](https://sonarcloud.io/dashboard?id=spring-petclinic_spring-framework-petclinic)
+팀장 이준석 : [junnn0021](https://github.com/junnn0021) | 이준석 : [junnn0021](https://github.com/junnn0021) | 이준석 : [junnn0021](https://github.com/junnn0021) | 이준석 : [junnn0021](https://github.com/junnn0021) | 
+ --- | --- | --- | --- |
 
-GCP Cloud 과제 수행을 위한 Java Spring 으로 개발된 Sample Application 입니다. 
+- **우리가 함께 성장해가는 이 순간은 인생에서 가장 빛나는 행복한 시간이다.**
+- Team Notion : [花様年華](https://www.notion.so/da73182e65984c3b8a985bc8ce32e699)
+- Duration : 2023.07.24~2023.08.04
+<br>
 
-**3-layer architecture** (i.e. presentation --> service --> repository) 로 Tomcat 에 배포하여 2 Tier 로 구성하거나
-또는 nginx 등의 Web 서버를 통해서 Tomcat 을 연결하는 3 Tier 구성을 테스트할 수 있습니다. 
+## Requirement
 
-## Understanding the Spring Petclinic application with a few diagrams
+#### Web Server / WAS 서비스를 위한 인프라 구축
 
-[See the presentation here](http://fr.slideshare.net/AntoineRey/spring-framework-petclinic-sample-application) (2017 update)
+- Web Server 구축(apache v2.4 ~)
+- WAS 구축(tomcat) - java: OpenJDK 설치 & yum/dnf로 java 설치 선택
+- Web Server-WAS 연동 - Proxy모드 설정 또는 mod.jk 모드 설정
+- DB 구축 및 연동
+- CDN, 애플리케이션 및 인프라 모니터링, DNS 구성
+<br>
 
-## Running petclinic locally
+## Summary
+우리 페이지는 **도서 구매 예약 시스템**을 운영합니다.<br>사용자는 페이지 접속 후, 사용자 정보와 구매할 도서 정보를 입력하게 됩니다.<br>
+서버 및 데이터베이스는 **GCP를 이용하여 3 Tier를 구축**했습니다.<br>
+(현 프로젝트는 제공받은 Petclinic 코드를 일부 수정하여 진행했습니다.)
+
+<br>
+
+## User Flow
+![image](https://github.com/junnn0021/book-reservation/assets/119108967/d665cb98-ed5d-4883-b7ab-16f719fbde96)
+
+<br>
+
+## Architecture
+
+![image](https://github.com/junnn0021/book-reservation/assets/119108967/4a4c8dc3-7a65-47b5-89b9-ca218c1c9e53)
+![image](https://github.com/junnn0021/book-reservation/assets/119108967/db80d99f-f4dc-4c3a-9209-b29c5097e621)
+- 아키텍처 구현 과정 : [Notion](https://www.notion.so/c76fd7c84e00409bbac6a0e889c7e629)
+
+<br>
+
+## Environment
+<!--<div align=center>-->
+<img src="https://img.shields.io/badge/GCP-4285F4?stylefor-the-badge&logo=Google Cloud&logoColor=FAFAFA"/> <img src="https://img.shields.io/badge/Apache-D22128?stylefor-the-badge&logo=Apache&logoColor=FAFAFA"/>
+<img src="https://img.shields.io/badge/Tomcat-F8DC75?stylefor-the-badge&logo=Apache Tomcat&logoColor=000000"/>
+<img src="https://img.shields.io/badge/Maven-C71A36?stylefor-the-badge&logo=Apache Maven&logoColor=FAFAFA"/>
+<img src="https://img.shields.io/badge/JMeter-D22128?stylefor-the-badge&logo=Apache JMeter&logoColor=FAFAFA"/>
+ <img src="https://img.shields.io/badge/MySQL-4479A1?style=stylefor-the-badge&logo=MySQL&logoColor=FAFAFA"/>
+
+<!--</div>-->
+
+<br>
+
+## Example of use
+
+
+<br>
+
+## Prerequisites
+
+아래 주어진 과정을 실행해야 합니다.
+
+<br>
+
+## Spring PetClinic Sample Application
 
 ### Tomcat 설치 및 Start
-Tomcat 설치 가이드를 참조하여 Tomcat 설치 후, tomcat-users.xml 에 User 및 Role 추가
+Tomcat 설치 가이드를 참조하여 Tomcat 설치 후, tomcat-users.xml 에 User 및 Role 추가합니다.
 
 [ Ubuntu 18.04 : Tomcat 9 설치하는 방법 ](https://jjeongil.tistory.com/1351)
 
@@ -44,10 +93,6 @@ git clone https://github.com/SteveKimbespin/petclinic_btc.git
 cd petclinic_btc
 ./mvnw tomcat7:deploy
 ```
-
-You can then access petclinic here: [http://localhost:8080/petclinic](http://localhost:8080/petclinic)
-
-<img width="1042" alt="petclinic-screenshot" src="https://cloud.githubusercontent.com/assets/838318/19727082/2aee6d6c-9b8e-11e6-81fe-e889a5ddfded.png">
 
 ### 외부에 구성한 MySQL Database 연결 방법
 
@@ -78,9 +123,6 @@ Tomcat 에 재배포
 # 최초 배포하는 경우
 ./mvnw tomcat7:deploy -P MySQL
 ```
-
-
-You can then access petclinic here: [http://localhost:8080/petclinic](http://localhost:8080/petclinic)
 
 
 
